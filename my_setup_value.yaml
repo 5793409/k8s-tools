@@ -1,0 +1,13 @@
+grafana:
+  adminUser: admin
+  adminPassword: admin
+
+  grafana.ini:
+    server:
+      root_url: "http://89.169.136.113/grafana/"
+      serve_from_sub_path: true
+
+
+prometheus:
+  prometheusSpec:
+    maximumStartupDurationSeconds: 300
